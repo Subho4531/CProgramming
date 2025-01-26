@@ -45,3 +45,10 @@
 
 ### **Unit 10: File Handling** *(Optional, if time permits)*
 - File handling concepts and implementation (can also be covered as part of lab exercises).
+
+## **Notes:**
+- https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/C_Complete_Notes.pdf
+  
+## **Handbook:**
+- https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/The%20Ultimate%20C%20Handbook.pdf
+
