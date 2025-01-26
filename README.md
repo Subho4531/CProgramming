@@ -2,11 +2,11 @@
 
 # Syllabus
 
-**Unit 1: Introduction to Programming**
+**Unit 1: Introduction to Programming :**
 Introduction to components of a computer system (disks, memory, processor, where a programisstored and executed, operating system, compilers etc.) .
 Idea of Algorithm: steps to solve logical and numerical problems. 
 Representation of Algorithm: Flowchart/Pseudocode with examples.
-From algorithms to programs; source code, variables (with data types) variables and memorylocations, Syntax and Logical Errors in compilation, object and executable code.
+From algorithms to programs; source code, variables (with data types) variables and memorylocations, Syntax and Logical Errors in compilation, object and executable code. 
 
 **Unit 2: Arithmetic expressions and precedence**
 
