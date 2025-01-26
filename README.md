@@ -1,4 +1,4 @@
-# C Programming(ESCS-291)
+# C Programming(ESCS-201)
 
 # Syllabus
 
