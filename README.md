@@ -1,6 +1,6 @@
-# CProgramming
+# C Programming(ESCS-291)
 
-#Syllabus
+# Syllabus
 
 **Unit 1: Introduction to Programming**
 Introduction to components of a computer system (disks, memory, processor, where a programisstored and executed, operating system, compilers etc.) .
