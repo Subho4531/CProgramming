@@ -1,5 +1,5 @@
 /*
-If a five-digit number is input through the keyboard, write a program to reverse the
+If a number is input through the keyboard, write a program to reverse the
 number.
 */
 
@@ -8,7 +8,7 @@ number.
 
 int main() {
     int num, reverse=0;
-    printf("Enter a 5 digit number = ");
+    printf("Enter a number = ");
     scanf("%d", &num);
     while(num>0){
         reverse=reverse*10 + num%10;
