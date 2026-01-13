@@ -9,8 +9,7 @@
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "windows-gcc-x86",
-      "compilerArgs": [
-        ""
+      "compilerArgs": [ ""
       ]
     }
   ],

@@ -16,9 +16,11 @@ int main() {
         new_num = digit * factor + new_num;
         factor *=10;
         num /=10;
-    }
+    }   
     
     printf("Increased number = %d",new_num);
 
     return 0;
+
+
 }

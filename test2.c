@@ -1,8 +1,41 @@
 #include <stdio.h>
-void main() {
-    int a = 1, b = 2, c = 3, d = 4, result;
+#include <stdlib.h>
 
-    result = (a++ || --b,c++ && --d,b-- && c++ || a-- && ++d, ++a || --c);       // Expression 5
 
-    printf("%d %d %d %d %d\n", a, b, c, d, result);
-}
+
+int main(void) {
+ 
+
+  int n ;
+  printf("Enter the number");
+  scanf("%d",&n);
+  for(int i=0;i<n;i++){
+    for(int j = 0;j<n-i-1;j++){
+      printf(" ");
+    }
+    
+      for(int k=0; k<2*i+1;k++){
+        printf("*");
+      }
+    
+      
+    printf("\n");
+    }
+  for(int i=0;i<n-1;i++){
+    for(int j = i;j>=0;j--){
+      printf(" ");
+    }
+    
+      for(int k=0; k<2*(n-i-1)-1;k++){
+        printf("*");
+      }
+    
+      
+    printf("\n");
+    }
+
+  
+  }
+  
+  
+ 
