@@ -52,6 +52,29 @@ int dequeue(struct queue * q){
 
 int main() {
     struct queue q;
-    
+    q.size=400;
+    q.f=q.r=0;
+    q.arr=(int *)malloc(sizeof(int));
+
+    int u;
+    int i =0;
+    int visited[7]= {0,0,0,0,0,0,0};
+    int a[7][7] = {
+    {0, 1, 1, 0, 0, 0, 0},
+    {1, 0, 0, 1, 0, 0, 0},
+    {1, 0, 0, 1, 1, 0, 0},
+    {0, 1, 1, 0, 0, 1, 0},
+    {0, 0, 1, 0, 0, 1, 1},
+    {0, 0, 0, 1, 1, 0, 1},
+    {0, 0, 0, 0, 1, 1, 0}
+};
+
+    printf("%d",i);
+    visited[i]=1;
+    enqueue(&q,i); //enqueue i for exploration
+
+    while(!isEmpty(&q)){
+        int node = 
+    }
     return 0;
 }
