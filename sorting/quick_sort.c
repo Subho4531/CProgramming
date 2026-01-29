@@ -1,16 +1,20 @@
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
+#include<stdio.h>
+
 void quicksort(int *arr, int low, int high);
 int partition(int *arr, int low, int high);
 void swap(int *arr, int i, int j);
 
 
-int* sortArray(int* nums, int numsSize, int* returnSize) {
-    *returnSize = numsSize; 
-    quicksort(nums,0,numsSize-1);
-    return nums;
-    
+int main(){
+    int arr[] = {8,9,5,2,5,8,6,5};
+    int n = sizeof(arr)/sizeof(int);
+    quicksort(arr,0,n-1);
+
+    for(int i=0 ; i<n ;i++){
+        printf("%d ",arr[i]);
+    }
+
+    return 0;
 }
 
 void quicksort(int * arr,int low,int high){
